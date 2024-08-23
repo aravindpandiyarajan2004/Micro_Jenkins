@@ -50,10 +50,9 @@ public class ApplicantController {
 			service.addApplicant(applicant);
 			msg = SUCCESS;
 		} catch (IOException e) {
-			e.printStackTrace();
 			msg = FAILURE;
 		} catch (Exception e) {
-			e.printStackTrace();
+			
 			msg = FAILURE;
 		}
 		return msg;

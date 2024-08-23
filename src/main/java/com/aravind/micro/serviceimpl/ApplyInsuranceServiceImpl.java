@@ -23,19 +23,7 @@ public class ApplyInsuranceServiceImpl implements ApplyInsuranceService {
 
 	}
 
-//	@Override
-//	public String addApplyInsurance(ApplyInsurance applyInsurance) {
-//		 applyInsuranceRepo.save(applyInsurance);
-//		Applicant applicant = ((ApplyInsurance) applicantRepo).getApplicant();
-//
-//		if (applicant != null) {
-//			String applicantEmail = applicant.getEmail();
-//			emailService.sendSimpleMessage(applicantEmail, "Insurance Application Received",
-//					"Your application is under progress. Awaiting approval.");
-//		}
-//
-//		return "Success";
-//	}
+
 
 	@Override
 	public String updateApplyInsurance(ApplyInsurance applyInsurance) {
